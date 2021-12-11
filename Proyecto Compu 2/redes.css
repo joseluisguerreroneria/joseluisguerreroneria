@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 500px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: rgb(230, 31, 31);
+}
+ul.social-icons {
+    margin-top: 100px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #f0145d;
+}
+.fa-facebook:hover {
+    background-color: #185fec;
+}
+
+.fa-youtube {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #2f3032;
+}
+.fa-youtube:hover {
+    background-color: #e6ba41;
+}
+.fa-linkedin {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #dd1f5e;
+}
+.fa-linkedin:hover {
+    background-color: #4700a4;
+}
+
+.fa-instagram {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #2f322f;
+}
+.fa-instagram:hover {
+    background-color: #d3660cde;
+}
+
+.fa-whatsapp {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #32312f;
+}
+.fa-whatsapp:hover {
+    background-color: #95c5a936;
+}

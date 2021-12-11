@@ -1,0 +1,409 @@
+codigo tarea 3 ( audios y gifs)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 3</title>
+</head>
+<body background="MW.jpg">
+    <font face="audio" color="blue">   
+        <center><br><br>
+       <h1> Computación II, Tarea 3 correspondiente al mes de septiembre 2021 </h1><br><br>
+        <table border="4"></table>
+            <tr> 
+              <TH><IMG SRC="irongif.gif" WIDTH="300" HEIGHT="200"></TH>
+              <th><iframe width="300" height="200" src="https://pixabay.com/es/videos/hong-kong-crucero-puerto-transporte-2849/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TH>
+              <TH><IMG SRC="irongif2.gif" WIDTH="300" HEIGHT="200"></TH>
+            </tr>   
+            <tr>
+                <TH>Clase 3, fecha: 07 Septiembre 2021</TH>  
+                <TH><audio class="Audio-1" src="dc.mp3" controls>
+                <TH><IMG SRC="ironfondo.jpg" WIDTH="200" HEIGHT="175"></TH>
+                <TH><audio class="Audio-2" src="Eiffel65.mp3" controls>
+            </tr>
+             <tr>
+                <TH>Guerrero Neria Jose Luis</TH>  
+              <TH><IMG SRC="ironmangif3.gif" WIDTH="70" HEIGHT="75"></TH>
+                <th><iframe width="200" height="175" src="https://pixabay.com/es/videos/hong-kong-crucero-puerto-transporte-2849/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TH>
+              <TH><IMG SRC="ironmangif4.gif" WIDTH="200" HEIGHT="175"></TH>
+            </tr>
+        </center>
+</body>
+</html>
+
+
+TAREA 6 FORMULARIO
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 6 Formulario</title>
+</head>
+<body>
+    <body background="dineero.jpg">
+    
+    <h2>Datos del Cliente</h2>
+    <Form> 
+    <label for="nb">Nombre completo:</label>
+    <input type="text" name="n" id="nb" placeholder="Apellido paterno apellido materno nombre" size="70"><br><br>
+    <label for="nb">Correo:</label>    
+    <input type="text" name="n" id="nb" placeholder="Ejemplo-JuanDomingez@gmail.com" size="70"><br><br>
+    <label for="e">Teléfono :</label>
+    <input type="text" name="" id="e" placeholder="###########" maxlength="30"><br><br>
+    <h2>Pago Con Tarjeta</h2>
+    <Form> 
+        <label for="nb">Nombre Titular:</label>    
+        <input type="text" name="n" id="nb" placeholder="Nombre Apellidos" size="70"><br><br>
+        <label for="e">Numero de la tarjeta:</label>  
+        <input type="text" name="" id="nb" placeholder="# Tarjeta" minlength="30"><br><br>
+        <label for="e">Cvv:</label>  
+        <input type="text" name="" id="nb" placeholder="###" minlength="30"><br><br>
+        <br>>
+        <label for="tipo">Otras formas de pago</label><br><br>
+        <input type="radio" name="Tipo" id="" value="">Paypal <br>
+        <input type="radio" name="Tipo" id="" value="">Vales <br>
+        <input type="radio" name="Tipo" id="" value="">Deposito <br>
+        <input type="radio" name="Tipo" id="" value="">Contraentrega <br>
+        <input type="radio" name="Tipo" id="" value="">Transferencia Bancaria <br>
+        <input type="radio" name="Tipo" id="" value="">Codigo QR <br>
+        <br><br>
+    <button type="submit">
+    <img src="Tarjeta.jpg" alt="imagen" width="80" height="70" style="vertical-align: middle">
+    Enter
+    </button>
+    </Form>
+</body>
+</html>
+
+TAREA 9 REDES SOCIALES ICONOS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociales</title>
+    <link rel="stylesheet" href="Tarea9 Compu2.css">
+</head>
+<body>
+    <div class="footer-social-icons">
+        <h4 class="_14">Contactanos:</h4>
+        <ul class="social-icons">
+            
+            <li><a href="https://www.youtube.com/" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/feed/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.whatsapp.com/" class="social-icon"> <i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="https://www.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
+
+CSSS TAREA 9
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    background: #7c2945;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 500px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: rgb(230, 31, 31);
+}
+ul.social-icons {
+    margin-top: 100px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #f0145d;
+}
+.fa-facebook:hover {
+    background-color: #185fec;
+}
+
+.fa-youtube {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #2f3032;
+}
+.fa-youtube:hover {
+    background-color: #e6ba41;
+}
+.fa-linkedin {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #dd1f5e;
+}
+.fa-linkedin:hover {
+    background-color: #4700a4;
+}
+
+.fa-instagram {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #2f322f;
+}
+.fa-instagram:hover {
+    background-color: #d3660cde;
+}
+
+.fa-whatsapp {
+    padding:30px 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #32312f;
+}
+.fa-whatsapp:hover {
+    background-color: #95c5a936;
+}
+
+
+TAREA DE BOTONE ANIMADOS
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Integración</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./Style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://www.zachstronaut.com/js/rotate.jquery.js'></script><script  src="./script.js"></script>
+
+<!-- partial:index.partial.html -->
+<div class="buttons">
+  <h1>UACM <code>Jose Luis Guerrero Neria</code></h1>
+  <button class="fill">Maravillas del Mundo</button><li><a href="https://www.dw.com/es/las-nuevas-siete-maravillas-del-mundo/g-58195964"></a></li>
+  <button class="pulse">Chichen Itza</button>
+  <button class="close">Taj Mahal</button>
+  <button class="raise">Machu Pichu</button>
+  <button class="up">Coliseo de Roma</button>
+  <button class="slide">Muralla China</button>
+  <button class="offset">Cristo Redentor</button>
+  <button class="close">Petra</button>
+</div>
+<!-- partial -->
+<iframe width="868" height="488" src="https://youtu.be/7kFAAvtOTi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
+
+SU CSSS 
+body {
+  background: #111;
+}
+
+/*
+  https://developer.mozilla.org/en/docs/Web/CSS/box-shadow
+  box-shadow: [inset?] [top] [left] [blur] [size] [color];
+
+  Tips:
+    - We're setting all the blurs to 0 since we want a solid fill.
+    - Add the inset keyword so the box-shadow is on the inside of the element
+    - Animating the inset shadow on hover looks like the element is filling in from whatever side you specify ([top] and [left] accept negative values to become [bottom] and [right])
+    - Multiple shadows can be stacked
+    - If you're animating multiple shadows, be sure to keep the same number of shadows so the animation is smooth. Otherwise, you'll get something choppy.
+*/
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.close:hover,
+.close:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.fill {
+  --color: #a972cb;
+  --hover: #cb72aa;
+}
+
+.pulse {
+  --color: #ef6eae;
+  --hover: #ef8f6e;
+}
+
+.close {
+  --color: #ff7f82;
+  --hover: #ffdc7f;
+}
+
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
+}
+
+.up {
+  --color: #e4cb58;
+  --hover: #94e458;
+}
+
+.slide {
+  --color: #8fc866;
+  --hover: #66c887;
+}
+
+.offset {
+  --color: #19bc8b;
+  --hover: #1973bc;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+body {
+  color: #fff;
+  background: #17181c;
+  font: 300 1em "Fira Sans", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+code {
+  color: #e4cb58;
+  font: inherit;
+}
